@@ -21,7 +21,6 @@ class Player(pg.sprite.Sprite):
             self.acc.x = -PLAYER_ACC
         if keys[pg.K_RIGHT]:
             self.acc.x = PLAYER_ACC
-
         # apply friction
         self.acc += self.vel * PLAYER_FRICTION
         # equations of motion

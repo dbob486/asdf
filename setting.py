@@ -1,9 +1,10 @@
 #info
 TITLE = "asdf"
-WIDTH = 700
-HEIGHT = 500
+S_WIDTH = 700
+S_HEIGHT = 500
+CUBE_WIDTH = 30
+CUBE_HEIGHT = 30
 FPS = 60
-FONT_NAME = 'arial'
 HS_FILE = "highscore.txt"
 
 # Player properties
