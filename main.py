@@ -8,7 +8,7 @@ class Game:
         # initialize game window, etc
         pg.init()
         pg.mixer.init()
-        self.screen = pg.display.set_mode((WIDTH, HEIGHT))
+        self.screen = pg.display.set_mode((S_WIDTH, S_HEIGHT))
         pg.display.set_caption(TITLE)
         self.clock = pg.time.Clock()
         self.running = True
@@ -16,8 +16,8 @@ class Game:
     def new(self):
         # start a new game
         self.all_sprites = pg.sprite.Group()
-        self.player = Player()
-        self.all_sprites.add(self.player)
+        self.a = Cube()
+        self.all_sprites.add(self.a)
         self.run()
 
     def run(self):
